@@ -47,7 +47,7 @@ Learning goals for week 0 => There will be lots of housekeeping as we become acc
 #### Assignments/Assessments
 
 - assessments will be every end of week starting with week-1 typically given on friday mornings (thursday for holidays)
-- holidays are christmas eve and new years eve assessments will most likely be given out those wednesday afternoons to give you ample time to complete and not stress to much
+- holidays are Monday February 21st, President's Day
 
 #### Engage
 
