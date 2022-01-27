@@ -4,15 +4,9 @@
 // L => no constraints on type definitions 
 // S => everything has a defined type 
 
-// var number = 1
-
-// ...
-
-// number = 'string'
-
-
 // syntax
-// name values & variables & expressions (camelCase) SCREAMING_CAMEL_CASE => constants/enviromental variables
+// name values & variables & expressions (camelCase), soThisiSAnExampleOfCamelCase, SCREAMING_CAMEL_CASE => constants/enviromental variables
+// snake_case_this
 // name directories, assets (imgs, fonts), repositories, etc. (kebab-case)
 
 // iWillTypeThisOut    i-will-type-this-out
@@ -33,51 +27,65 @@ thisIsHowWeNameThings(3, 5); // expected outcome
 
 // 7
 
-// 'sTriNg'.toLowerCase // not double mark quotyations but single mark always // string
+// new Number = // (WE DO NOT USE NEW CONSTUCTOR SYNTAX FOR VALUES)
+// 7 // this is a number literal
 
-// true
-// false
+// new String
+// 'string' // this is a string literal
 
-// null           // defines a value that does not exist purposefully
-// undefined      // defines a value that DNE 
+// new Boolean
+// true && false  // these are boolean literals
 
-// BigInt
-// :symbol
+// undefined
+// null
 
-var placeholder = null
 
-function someStuff(param) {
-     // does some stuff
-     param = 500
-
-     return param
-}
-
-someStuff(placeholder); // 500
-
-var arrowFx = (callBackFx) => {
-     return callBackFx
-}
-
-arrowFx(someStuff) // invoked fx style
-
-// complexes
+// complex
 
 // objects [date, patterns, fxs]
+// in JS group us realted code often describing in more detail a singular thing
+{} // this is an object literal
+const person = {
+     name: 'patrick',
+     location: 'BK',
+     hungry: true,
+     speak: () => {
+          console.log('My name is ' + this.name + ' and I live in ' + this.location)
+     }
+}
+// method style fx invocation
+// objectReciever.nameOfTheMethod()
+person.speak() // patrick BK
 
-// new Date = 
+// fx's are reusable pieces of code that act like factories
+// take in things called arguments and they return us out singular things
 
-// \dhc&{dish}/dhcn&sjkxjsue|dkjd\
+function exampleFx(parameter1, parameter2) {
+     // this part does some stuff usually interacting with the parameters in some way
+     // maybe does some more stuff
+     // parameter1()
+     // guess what? more stuff here
 
+     const result = parameter1 + parameter2
 
-// // var exampleObject = {
-// //      name: "patrick",
-// //      location: "brooklyn",
-// //      mood: "hungry"
-// // }
+     return result
+}
 
-// // functions
+// const exampleReult = exampleFx(exampleArrowFx, 3) // 5
+// exampleFx(7, 3) // 10
+// exampleFx(5, 4) // 9
+// console.log(exampleReult)
 
+// console.log(exampleFx) // the value of the fx itself used to pass the fx around (aka reuse it)
+// console.log(exampleFx(3, 5)) // 8
+
+const exampleArrowFx = (cb) => {
+     // some stuff
+     
+     return cb
+
+     const example = 6
+}
 
 // fx style
 // nameOfFx()
@@ -85,17 +93,25 @@ arrowFx(someStuff) // invoked fx style
 // method style
 // objectReciever.methodName()
 
-// constructo style
+// constructor style
 // new NameOfConstructor
+// new Boolean
 
-// new Date
+// comments
+
+// // serialization and deserialization of JSON
+// [Object: object]
+
+// JSON.parse()
+// JSON.stringify()
 
 // No Other Types
 
-function helloWorld() {
+/* function helloWorld() {
+     const someVariable = 'some more stuff' 
+}; */
 
-};
-
+// console.log('example I can havsdasjdaskdnaslkdaslkd laskdkasmdlkasmdlkasldkasmldkmaslkc') 
 
 // console.log(typeof(helloWorld)) // fx
 // console.log([]) // 
@@ -109,14 +125,11 @@ function helloWorld() {
 // console.log(typeof(/(hello|goodbye)/)); //
 
 
-console.log(3 + 3) // 
-
-
 
 var exampleFruit = 'banana'
 exampleFruit = 'apple'
 
-console.log(exampleFruit) // apple
+// console.log(exampleFruit) // apple
 
 // var, let, const
 

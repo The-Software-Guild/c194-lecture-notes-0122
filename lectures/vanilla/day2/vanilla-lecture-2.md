@@ -6,8 +6,7 @@ Learning goals for week 0 day 2 => We are collectively solidifying our base know
 
 1) Day 1 Recap
 2) Vanilla JS Overview
-3) JS Quiz
-4) Leetcode & Edabit
+3) Vanilla JS Engage
 
 ### 1. Day 1 Review
 
@@ -19,6 +18,8 @@ Learning goals for week 0 day 2 => We are collectively solidifying our base know
 Lousely typed dynamic scripting language.
 
 [syntax](https://github.com/airbnb/javascript)
+
+[vs code Mac OS keyboard shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
     nouns & verbs
 
@@ -84,8 +85,3 @@ Variables point to values.
 _Declaratios & Assignment_
 
 _Var vs. Let vs. Const_
-
-### 3. JS Quiz
-
-[Javascript Quiz](https://academy.engagelms.com/mod/quiz/view.php?id=45463)
-[Summative Assessment](https://academy.engagelms.com/mod/quiz/view.php?id=45463)
