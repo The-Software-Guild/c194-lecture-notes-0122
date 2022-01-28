@@ -1,6 +1,6 @@
 # C194 Week 0 Vanilla JS Lecture 4
 
-Learning goals for week 0 day 2 => We are collectively solidifying our base knowledge of JS in order to move into more advanced concepts in the coming week.
+Learning goals for week 0 day 4 => Make way for an easy afternoon and weekend your last one for a bit by talking about some high level concecpts unrelated to JS.
 
 ## Agenda
 
