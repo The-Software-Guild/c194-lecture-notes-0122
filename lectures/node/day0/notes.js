@@ -1,11 +1,5 @@
 // notes.js
 
-// JWT's
-// header, payload, signature
-
-// const newToken = jwt('header', payload, sh256())
-
-
 // one-way-fx's
 
 
