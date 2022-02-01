@@ -1,7 +1,8 @@
 // notes.js
 
-// one-way-fx's
+// JS runtime environment that executes JS code outside the browser
 
+// one-way-fx's
 
 // deterministic fx's 
 // all fx's in js are deterministic
@@ -33,3 +34,44 @@ const printIfTrue = (test) => {
 
 printIfTrue(!true) // false
 printIfTrue(!false) // true
+
+// module => reusable building block 
+
+// 2. core modules
+
+// 3. File based (internal)
+// created by us with the purpose of absctracting and encapsulating reusable logic
+
+
+
+// Object Oriented Programming (OOP)
+// Model for how code should be written
+
+// 4 pillars of object oriented programming:
+// Abstraction - the removal and grouping together of shared logic
+// Encapsulation - internalization of logic to a singular construct
+//   => all logic for a specific construct(objects) is held within itself
+//      and ONLY what is needed to be shared is exposed to a user
+
+// Inheritance
+// Polymorphisim
+
+
+// const notesCalcFxs = require('./calc');
+
+// console.log(notesCalcFxs.bool) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

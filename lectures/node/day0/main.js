@@ -1,12 +1,16 @@
 // main.js
-const calcFxs = require('./calc'); // JS has first class functions
+const calcFxs = require('./calc').bool; // JS has first class functions
+
+// inheritence
+// prototypal inheritence
+calcFxs.bool = true 
 
 
-
-console.log(calcFxs) // object itself representative of everything from module.exports
-console.log(calcFxs.squaredFx) //  function itself represented by node as [Function: nameOfFunction]
+console.log(calcFxs) // entire object that I exported from my module.exports in the calc.js
+console.log(calcFxs.bool) // true
+console.log(calcFxs.squaredFunction) //  the entire function itself denoted with [Function: nameOfFunction]
 console.log(calcFxs.squaredFx(3)) // 9
-console.log(calcFxs.bool) // false
+
 
 
 
