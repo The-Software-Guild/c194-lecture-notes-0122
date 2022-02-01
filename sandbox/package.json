@@ -1,0 +1,19 @@
+{
+  "name": "c194-mern-sandbox-v1",
+  "version": "1.0.0",
+  "description": "This is a sandbox for practicing MERN stuff for M3 class c194 starting January 2022",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
