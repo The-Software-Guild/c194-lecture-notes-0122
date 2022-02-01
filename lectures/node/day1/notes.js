@@ -18,7 +18,7 @@ const higherOrderFunction = (callback, num1, num2) => {
 
 
 
-higherOrderFunction(cb, 2, 3, true, 8, 'string') // 5
+// higherOrderFunction(cb, 2, 3, true, 8, 'string') // 5
 
 // arguments in JS are arbitrary meaning... 
 
@@ -44,7 +44,7 @@ function closureExample() {
      insideFx()
 }
 
-closureExample() // 
+// closureExample() // 
 
 // hoisting => is when certain variable or fx declerations are brought to the top of their current scope and written into memory there
 
@@ -92,11 +92,11 @@ closureExample() //
 // cookies are incredible small usually under 4kb
 // can expire 
 
-localStorage.
+// localStorage.
 
-localStorage.setItem('key', 'value')
-localStorage.removeItem('key')
-const exampleStorage = localStorage.getItem()
+// localStorage.setItem('key', 'value')
+// localStorage.removeItem('key')
+// const exampleStorage = localStorage.getItem()
 
 
 
@@ -144,4 +144,47 @@ const exampleStorage = localStorage.getItem()
 
 
 // resource operation = route path + HTTTP method
+
+
+
+// (3rd party) external node modules as the 3rd type of node module we are learnign about today
+
+// JSON - javascript object notation
+// {
+//       "properties": {
+//            "moreProeprties": "more values"
+//       }
+// }
+
+// npm init
+// command to initialize a node project and allow for the use of extenral node modules
+// this creates us:
+// package.json
+//  => a file written in JSON that references configuration for our project
+
+// install modules using the npm install command
+// this creates us:
+// package-lock.json
+//   => hold refernce to all dependencies fo the project by trying to avoid redundancy
+
+// node_modules<>
+//     => holds the actual code for all the afformentioned dependencies^
+
+// anytime we interact with new code so new code in the cloud
+// meaning a new part of the codebase that we have to clone down
+// a new project, ...etc, ...etc
+
+// run this command from the same directory as the package jsons
+// npm install
+// this will install all of the actual code (node_modules) of all 
+// the dependencies to your local machine so that you can interact with the
+// new application
+
+
+
+
+
+
+
+
 

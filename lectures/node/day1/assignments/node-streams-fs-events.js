@@ -1,13 +1,21 @@
 // node-streams-fs-events
 
+// due Wednesday February 2nd @ 10:00am est via the following github classroom link: https://classroom.github.com/a/_xackrwF
+
 // please create a seperate branch for each section of each assignment moving forward
 // when you come to me or anyone else for help you should have pushed your most recent changes 
 
+// workflow is ONLY for when you are workign by yourself
+// so example is: I am have been workign ona  new feature branch called new-feature-1 (section-1-core-modules)
+// finished working on sectino one I now need to merge my local section 1 changes into my main branch in two steps
+// 1 merge it to local main then push that to remote main while checking for changes along the way
+
 // git checkout main
-// git pull (pulls down any other changes that have acrued since yous tarted working) in our context this isnint really imporatn
-// git merge --no-ff <name-of-branch>
+// git pull (pulls down any other changes that have acrued since you started working) in our context this is not really important
+// git merge --no-ff <name-of-branch> (git merge --no-ff section-1-core-modules)
 // go through merge process (:wq)
 // open a PR from the remote side (from github website)
+
 
 // 1. core modules exercise
 // create a new directory USING NODE called node-core-modules
@@ -34,25 +42,5 @@
 //     - Name
 //     - Id
 //     - CreatedAt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

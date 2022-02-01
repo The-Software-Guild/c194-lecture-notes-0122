@@ -4,23 +4,38 @@ Learnign goals for week 1 day 1 => As we ramp up the pace we take a deep dive in
 
 ## Agenda
 
-    1) Day 0 Recap
-    2) Callbacks, Closures, & the Node Event Loop
-    3) Call Stack's & Execution Context
-    4) The HTTP Req/Res Cycle
-    5) Express.js
+    1) Express.js   
+    2) The HTTP Req/Res Cycle *PUSH TILL TMRW*
+    3) Callbacks, Closures, & the Node Event Loop 
+    4) Call Stack's & Execution Context
 
-### 1. Day 0 Recap
+### 1. Express.js
 
-- Problem Solving Process
+req, res, and next are called [streams](https://medium.com/developers-arena/streams-piping-and-their-error-handling-in-nodejs-c3fd818530b6), which are special node objects.
 
-- How To Ask a "Good" Question
+http verbs => express routing methods
+CRUD vs HTTP
 
-- Vanilla JS Refresh
+    1)
+    2)
+    3)
+    4)
 
-- Node.js => Node Patterns and Modularization
+Each method takes a path and a callback function – Express calls it a "handler", more or less what Node docs call a "request handler." It handles the request that comes in via that particular HTTP verb.
 
-### 2. Callbacks, Closure, & The Node Event Loop
+resource operation = ______ + ______ ?
+
+*query strings are not part of the route path.
+
+*resource operation does not equal endpoint!
+
+### 2. The HTTP Req/Res Cycle
+
+A HTTP req/res cycle is considered stateless .... what does that mean?
+
+By what means can we add "state" to this cycle ??
+
+### 3. Callbacks, Closure, & The Node Event Loop
 
 #### **Callbacks**
 
@@ -79,30 +94,4 @@ More on cb's, closure, and the node event loop.
 
 [Closure & Lexical Scope](https://dev.to/stephencweiss/closure-lexical-scope-12f4)
 
-### 3. Call Stack's & Execution Context
-
-### 4. The HTTP Req/Res Cycle
-
-A HTTP req/res cycle is considered stateless .... what does that mean?
-
-By what means can we add "state" to this cycle ??
-
-### 5. Express.js
-
-req, res, and next are called [streams](https://medium.com/developers-arena/streams-piping-and-their-error-handling-in-nodejs-c3fd818530b6), which are special node objects.
-
-http verbs => express routing methods
-CRUD vs HTTP
-
-    1)
-    2)
-    3)
-    4)
-
-Each method takes a path and a callback function – Express calls it a "handler", more or less what Node docs call a "request handler." It handles the request that comes in via that particular HTTP verb.
-
-resource operation = ______ + ______ ?
-
-*query strings are not part of the route path.
-
-*resource operation does not equal endpoint!
+### 4. Call Stack's & Execution Context
