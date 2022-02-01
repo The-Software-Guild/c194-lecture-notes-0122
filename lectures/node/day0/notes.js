@@ -20,3 +20,16 @@ const someFx = () => {
 
 
 // a singular file should export a singular component
+
+
+const printIfTrue = (test) => {
+     
+     if (test) {
+          console.log(true)
+     } else {
+          console.log(false)
+     }
+}
+
+printIfTrue(!true) // false
+printIfTrue(!false) // true

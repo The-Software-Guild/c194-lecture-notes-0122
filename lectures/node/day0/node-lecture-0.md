@@ -4,7 +4,7 @@ Learnign goals for week 1 => Familiarize ourselves with node.js while refreshign
 
 ## Agenda
 
-    1) Node.js => Node Patterns and Modularization
+    1) Node.js => Node Patterns and Modularization *MOVE TO TMRW MORN*
     2) Afternoon Assignment
 
 ### 1. Node.js => Node Patterns and Modularization
