@@ -1,4 +1,4 @@
-# C165 Week 1 Node Lecture 1
+# C194 Week 1 Node Lecture 1
 
 Learnign goals for week 1 day 1 => As we ramp up the pace we take a deep dive into the idiosyncrasies of Node that make it so powerful and popular. Next we introduce your first and possibly most important data flow in modern full stack web development, the HTTP req/res cycle. We end with a brief introduction to Express.js, a backend javascript framework that allows us to write server code in javascript.
 
