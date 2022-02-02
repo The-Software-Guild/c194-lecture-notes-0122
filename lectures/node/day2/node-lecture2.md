@@ -12,6 +12,7 @@ Learnign goals for node-day2 => Dive deeper into Express.js while being introduc
     6) URL Parameters & Queries
     7) Error Handling
     8) Postman
+    9) Assignment
 
 ### 1. Day 1 Recap
 
@@ -161,3 +162,7 @@ For errors returned from asynchronous functions invoked by route handlers and mi
     })
 
 ### 8. Postman
+
+### 9. Assignment
+
+Both exercises found in the assignments directory are to be handed in via: https://classroom.github.com/a/CG0Zn_2v due Friday morning February 4th at 10:00am est.
