@@ -21,7 +21,7 @@
 // create a new directory USING NODE called node-core-modules
 // using at least the node core module fs create a .txt file and write the following in it, 'hello world this is my first file!'
 // use a callback to output to the console that the file creation succeeded
-// now read the entire contents of the file. Remeber first you will need to create and store the path to the file.
+// now read the entire contents of the file. *Remeber first you will need to create and store the path to the file.
 // rename the working directory USING NODE to node-event-module
 
 
@@ -42,5 +42,3 @@
 //     - Name
 //     - Id
 //     - CreatedAt
-
-

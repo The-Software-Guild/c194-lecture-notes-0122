@@ -60,13 +60,6 @@ function closureExample() {
 
 
 
-// In computing, a stateless protocol is a communications protocol in which no session information is retained by the receiver, usually a server. 
-// Relevant session data is sent to the receiver by the client in such a way that every packet of information transferred can be understood in isolation, 
-// without context information from previous packets in the session. This property of stateless protocols makes them ideal in high volume applications, 
-// increasing performance by removing server load caused by retention of session information.
-
-
-
 // state of the union 
 // state of a molecul
 // state of a react class 
@@ -102,7 +95,7 @@ function closureExample() {
 
 // req <-> res HTTTP cycle 
 
-// ****** streams are special node objects whichw e treat EXACTLY like js objects we are used to 
+// ****** streams are special node objects which we treat EXACTLY like js objects we are used to 
 
 // req, res = {
 //     body ={},
