@@ -17,6 +17,8 @@ Learnign goals for node-day3 => Today we finish Express while introducing some t
 
 -Callbacks & HOFx's
 
+-HTTP Req<->Res Cycle
+
 -Express.js
 
 -Nodemon

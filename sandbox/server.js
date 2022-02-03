@@ -1,31 +1,30 @@
 const express = require('express');
-const app = express(); // alliasing by storing the value of the newly created express server into a variable called app
+const morgan = require('morgan');
 
-const morgan = require('morgan') // express.js logger (give us mroe detailed information on all req/res)
+const exampleRouter = require('./routes/exampleRouter');
+
+// initilization
+const app = express();
 
 // configuration constants
 const PORT = process.env.PORT || 5000;
 
 // application level middleware
-app.use(morgan('dev')) // middleware is code that enacts itself on EVRYTHING through a specific dataflow [loggers]
+app.use(morgan('dev'));
+app.use(express.json());
 
 // routes
-
-// CRUD          HTTP        EXPRESS
-// CREATE        POST        .post()
-// READ          GET         .get()     
-// UPDATE        PUT         .put()  
-// DELETE        DELET       .delete()
-
-// GET ALL
-app.get('/home', (req, res, next) => {
-     // do this stuff when a get req is made to the route path '/'
-    
-     res.send('Hello World')
-})
+// /users/users
+app.use('/', exampleRouter);
 
 // error handling
-
+const errorHandler = (err, req, res, next) => {
+     if (res.headersSent) {
+          return next(err)
+     }
+     res.status(500)
+     res.render('error', { error: err })
+}
 
 // server startup logic
 app.listen(PORT, () => {

@@ -26,13 +26,19 @@ let x = average(10, 20)
 // callbacks
 // a function that is passed into another function as an argument
 
+// 4th polymorphism in JS is really hard to do because if you do it correctly then you actually sacrifice encapsulation
+
+// This design pattern is a reminence of the functional deisgn patterns of js
+// currying 
+// everythgin is in a function
+
 // call back fx
-const callbackFunctionExample = (printThis) => {
+const printSomethingFx = (printThis) => {
      console.log(printThis)
 }
 
 // higher order function
-const HOFEx = (cb, thingToPrint, anotherThing) => {
+const createPrintSuiteFx = (cb, thingToPrint, anotherThing) => {
      // console.log(thingToPrint) // banana
      // console.log(anotherThing) // 3
      // console.log(cb) // [Function: callbackFunctionExample]
@@ -41,7 +47,7 @@ const HOFEx = (cb, thingToPrint, anotherThing) => {
 
      thingToPrint = 'apple'
 
-     // cb(thingToPrint) // takes in argument called printThis
+     cb(thingToPrint) // takes in argument called printThis
 }
 
 const printExample = 'banana'
@@ -50,7 +56,7 @@ let fourthParam
 
 console.log(fourthParam)
 
-HOFEx(callbackFunctionExample, printExample, 3) // banana, 3, [Function: callbackFunctionExample], apple
+HOFEx(printSomethingFx, printExample, 3) // banana, 3, [Function: callbackFunctionExample], apple
 
 
 // HTTP Req/Res cycle
