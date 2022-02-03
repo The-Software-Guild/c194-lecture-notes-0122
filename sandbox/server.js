@@ -11,9 +11,16 @@ app.use(morgan('dev')) // middleware is code that enacts itself on EVRYTHING thr
 
 // routes
 
+// CRUD          HTTP        EXPRESS
+// CREATE        POST        .post()
+// READ          GET         .get()     
+// UPDATE        PUT         .put()  
+// DELETE        DELET       .delete()
 
 // GET ALL
-app.get('/', (req, res) => {
+app.get('/home', (req, res, next) => {
+     // do this stuff when a get req is made to the route path '/'
+    
      res.send('Hello World')
 })
 
