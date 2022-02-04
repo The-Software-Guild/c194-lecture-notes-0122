@@ -30,14 +30,14 @@ exampleRouter
      .get('/users/:userByName', (req, res, next) => {
           const targettedUserName = req.params.userByName
           const targettedUserResource = users.find(arr => arr.name === targettedUserName)
-
+     
           res.status(200).send(targettedUserResource)
      }) // GET ONE
      .get('/queryExample', (req, res, next) => {
           console.log(req.query)
-
+     
           const soemVar = req.query.exampleProperty1
-
+     
           res.status(200).send(soemVar) // value1
      }) // GET QUERY
      .delete('/remove/:removeById', (req, res, next) => {
@@ -45,7 +45,7 @@ exampleRouter
           const isMatchedByID = (element) => element._id === targettedUserId;
           const targettedUserResourceIndex = users.findIndex(isMatchedByID)
           const deltedUser = users.splice(targettedUserResourceIndex)
-
+     
           // async code goes on here
           fs.readFile('./nameOfFile', (err) => {
                if (err) {

@@ -76,7 +76,7 @@ const initialString = 'hello' // 'olleh'
 // Refactor the event werkbook from Section 2 Part A into a multi-page react application in which a single exercie is displayed per each page.
 
 // Outcome:
-// The application must be fully styled and responsive (using a combination of css-grid, css flexbox, and media queries .... NOT bootstrap)
+// The application (Section 3 Part B) must be fully styled and responsive (using a combination of css-grid, css flexbox, and media queries .... NOT bootstrap)
 
 // PLEASE KEEP TRACK OF, AND ESTIMATE HOW LONG THE ASSESSMENT TOOK YOU TO COMPLETE THIS TIME. 
 // THIS IS PURELY FOR ME AND TO BETTER PACE THE FUTURE ASSIGNMENTS AND OVERALL COURSE PACING
