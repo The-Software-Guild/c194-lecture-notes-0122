@@ -10,14 +10,12 @@ Learnign goals for node-day4 => Today we make room for our first assessment by g
     4) Algorithm Solving Proccess 
     5) What to Study and How
     6) Time & Space Complexity - BigO Notation
-    7) Recursion
+    7) Recursion **Push 2 Interview-Prep
     8) Assessment #1
 
 ### 1. Day 3 Recap
 
 -URL Parameters & Queries
-
--Query Strings
 
 -Express Router
 
