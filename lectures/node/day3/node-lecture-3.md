@@ -4,14 +4,14 @@ Learnign goals for node-day3 => Today we finish Express while introducing some t
 
 ## Agenda
 
-    1) Day 3 Recap
+    1) Day 2 Recap
     2) URL Parameters & Queries
     3) Express Router
     4) Error Handling
     5) Testing
     6) Assignment
 
-### 1. Day 3 Recap
+### 1. Day 2 Recap
 
 -JS Call Stack vs. Node Event Loop
 
