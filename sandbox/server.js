@@ -30,3 +30,5 @@ const errorHandler = (err, req, res, next) => {
 app.listen(PORT, () => {
      console.log(`c194 server sandbox listening on port: ${PORT}`)
 })
+
+module.exports = app;
