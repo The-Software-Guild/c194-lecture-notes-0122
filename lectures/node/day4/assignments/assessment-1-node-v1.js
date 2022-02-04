@@ -1,7 +1,7 @@
 // assessment #1 - Node.js
 
 // You must complete all 3 sections by the beginning of class Monday  
-// February 7th @ 10:00am est. Handed in via github classroom: 
+// February 7th @ 10:00am est. Handed in via github classroom: https://classroom.github.com/a/dAhreoTD
 // Please schedule a code review via the following links immediately:
 // Navdeep, https://calendly.com/kaur-navdeep0179
 // Patrick, https://calendly.com/patrick-morgan-bkny/c194-assessment-1-node
