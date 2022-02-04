@@ -52,6 +52,9 @@ const initialString = 'hello' // 'olleh'
 // It's as simple as requiring the package and running uuid.v4())
 // Since there isn't a front-end setup yet, you'll just use Postman to interact with the server and update the data.
 
+// Follow TDD while designing and writing your API
+// use both Mocha and Chait to test the routes you will make
+
 // Create GET & POST routes
 // Since we don't have a good way to tell the server which item we want to PUT and DELETE yet, we'll start out just by writing the GET and POST endpoints.
 
