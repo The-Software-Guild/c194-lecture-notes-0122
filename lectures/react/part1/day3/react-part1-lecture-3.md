@@ -1,4 +1,4 @@
-# C94 Week 2 React Lecture 3
+# C194 Week 2 React Lecture 3
 
 Learnign goals for week 2 => Re-focus. As we head into our third week we refocus and prepare for the busiest week of the program. Let's plan accodringly. Feel free to reach out for tips, tricks, ...etc.
 
@@ -40,7 +40,7 @@ It can be succinctly described by the following set of rules:
 
 [Testing React.js](https://reactjs.org/docs/testing.html)
 
-### 2. Pacing & Assessment
+### 2. Pacing & Assessment #1
 
 ### 3. Schedule Updates
 
