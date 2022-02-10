@@ -5,7 +5,7 @@ Learnign goals for week 2 => Re-focus. As we head into our third week we refocus
 ## Agenda
 
     1) Socket IO & Testing Node
-    2) Pacing
+    2) Pacing & Assessment
     3) Schedule Updates
     4) Vanilla DOM Tree
     5) Constructor Functions & Classes
@@ -40,7 +40,7 @@ It can be succinctly described by the following set of rules:
 
 [Testing React.js](https://reactjs.org/docs/testing.html)
 
-### 2. Pacing
+### 2. Pacing & Assessment
 
 ### 3. Schedule Updates
 
