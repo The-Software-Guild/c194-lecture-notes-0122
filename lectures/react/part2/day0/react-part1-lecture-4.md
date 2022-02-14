@@ -1,6 +1,6 @@
 # C194 Week 3 React Lecture 0
 
-Learnign goals for react week2 day 0 => 
+Learnign goals for react week2 day 0 => Today we dive into React.js with a focus on high level concepts and vocabulary.
 
 ## Agenda
 
