@@ -6,7 +6,7 @@
 // If you finish early and are wondering what to practice or how to prepare for the assessment then
 // 1st - fill in any knowledge gaps for node/express === all 6 routes and positive/negative test cases using mocha and chait
 // 2nd - practice algorithm questions on leetcode/edabit
-// 3rd - write tests for the following 3 assignments using Jest or enzyme if needed(I dont think you need it off the top of my head)
+// 3rd - write tests for the following 3 assignments using Jest or enzyme if needed (I dont think you need it off the top of my head)
 
 // Assignment 1 - Timer App
 // https://academy.engagelms.com/mod/page/view.php?id=63645
