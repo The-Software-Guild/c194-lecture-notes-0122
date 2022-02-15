@@ -2,11 +2,12 @@
 
 // constructor functions and classes get hoisted differently 
 
-
+// general
 // react setup and conventions
 // most working files live in the src
-// organization
-// do NOT want deeply nested things
+// public (build, public facing configurations)
+
+// organization === do NOT want deeply nested things
 
 // naming 
 // components get capatilized in both declerations and file name
@@ -19,7 +20,7 @@
 // react uses somethign called the virtual DOM 
 
 // declarative & component-based
-// component is the smallest unit of a reusable piece of a website
+// component is the smallest unit of a reusable piece of a react application
 
 // because react does not use a templating engine and instead uses
 // JS that mena syou pass and mvoe data and information through the application
@@ -60,41 +61,3 @@
 
 // a singular suggestion:
 // a singular file should contain a singular component or at the very least only export a singular component
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ReactDOM.render()
-// SPA
-// VDOM rendering and rerendering of components (more importantly of component hieracheries)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

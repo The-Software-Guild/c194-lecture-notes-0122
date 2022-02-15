@@ -1,25 +1,26 @@
 // button.js
-// square lego piece that can be reused over and over and over again
-// Single Source of Truth & SRP (Single-responsibility principle) & DRY & Mudlarization (abstraction + encapsualtion)
+import Rest from './Rest'
 
+// object destructuring (pull out property values and instantly assign them to local variables within a specific scope)
 
-function Button() {
+// rest parameters (spread operator)
+function Button({color, innerText, ...rest}) {
      return (
-          <div>
-               this is button
+          <div style={{ color: color }}>
+               <div>{innerText}</div>
+               <Rest restParameterExampleProp={rest}/>
           </div>
      )
 }
 
+// non es6
+// function Button(props) {
+//      return (
+//           <div style={{ color: props.color }}>
+//                {props.innerText}
+//           </div>
+//      )
+// }
+
+// exporting at the end of the file 
 export default Button;
-
-
-
-
-
-
-
-
-
-
-

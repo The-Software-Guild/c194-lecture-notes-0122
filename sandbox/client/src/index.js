@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//const App = require('../src/components/App');
-import App from '../src/components/App'; // es6 of line 4
+import App from '../src/components/App';
 
+// root application configuration
+//              plug       socket
+//           root component      where we are placing that root component
 ReactDOM.render(
   <React.StrictMode>
     <App />
