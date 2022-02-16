@@ -13,6 +13,8 @@ function Button({color, innerText, ...rest}) {
      )
 }
 
+
+
 // non es6
 // function Button(props) {
 //      return (
