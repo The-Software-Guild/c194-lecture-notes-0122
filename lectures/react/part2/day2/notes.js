@@ -42,38 +42,9 @@ const element = <h1>Hello, world!</h1>;
 // anytime your props are updated or you recieve new props
 // anytime a component higher in the tree re-renders it re-renders all children components
 
-
-
-
-
-// lifecycle methods
 // event handling
+
 // binding of this in the constructo
-// consuming API's from the frontend with React/AJAX/Axios
-// hooks
-// testing
-// another assignment thursday
 
-// friday
 // VDOM rendering and rerendering of components (more importantly of component hieracheries)
-// equivalence in vanilal JS
-// prototypes / the prototpye chain / proptypal inheritance
-// assessment
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
