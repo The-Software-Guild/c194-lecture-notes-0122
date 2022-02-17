@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import axios from 'axios'
 
 import Card from './shared/Card'
 import List from './List'
@@ -8,7 +9,8 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      count: 0
+      count: 0,
+      pokemon: []
     }
   }
 
@@ -18,12 +20,44 @@ class App extends Component {
     }))
   }
 
-  componentDidMount() {
+  // mounting => rendered for the first time
+  // the first time a component is displayed on the DOM
+  // AJAX
+  // [Object: object]
+  fetchPokemonList = () => {
+    axios.get('https://pokeapi.co/api/v2/pokemon')
+      .then((res) => {
+        // handle success
+        console.log(res);
+        this.setState({
+          pokemon: res.data.results
+        });
+      })
+      .catch((err) => {
+        // handle error
+        console.log(err);
+      })
 
+    // // const getPokemon = async () => {}
+    // async function getPokemon() {
+    //   try {
+    //     const res = await axios.get('https://pokeapi.co/api/v2/pokemon');
+    //     console.log(res);
+    //     this.setState({
+    //       pokemon: res.data.results
+    //     });
+    //   } catch (err) {
+    //     // console.log(err)
+    //   }
+    // }
   }
 
+  componentDidMount() {
+    this.fetchPokemonList()
+  };
+
   render() {
-    console.log(List)
+    console.log(this.state);
     return (
       <>
         <div style={{
