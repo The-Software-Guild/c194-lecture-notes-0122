@@ -1,6 +1,7 @@
 import { Component } from 'react'
 
 import Card from './shared/Card'
+import List from './List'
 
 // component routing logic
 class App extends Component {
@@ -9,26 +10,20 @@ class App extends Component {
     this.state = {
       count: 0
     }
-
-    // binding of this in the constructor, do not so this anymore it is an anitattern
-    // this.handleIncirement = this.handleIncirement.bind(this)
   }
 
-  // IOI we ened to access this from within a method do we use
-  // public class field syntax
   handleIncirement = () => {
     this.setState(prevState => ({
       count: prevState.count + 1
     }))
   }
 
-  // lifecycle method it hooks into the component lifecycle and allows you to execute some code
-  // upon the mounting of a compoentn
   componentDidMount() {
-    // do something
+
   }
 
   render() {
+    console.log(List)
     return (
       <>
         <div style={{
@@ -54,6 +49,9 @@ class App extends Component {
             cardBckColor='lightGrey'
             btnText='alert me'
             btnBckColor='lightGreen' />
+        </div>
+        <div>
+          <List />
         </div>
       </>
     );
