@@ -9,10 +9,22 @@
 // Part A: Equivalence
 // Write a function called strictEquals(a, b) that returns the same value as a === b. 
 // Your implementation must not use the === or !== operators.
+// Use a testing suite to showcase your solution.
+
+function strictEquals(a, b) {
+  // are not allowed to use === or !==
+
+  return   // a === b
+}
 
 // Part B: Prototypal Inheritance
 // You are given a function, Square, that takes four parameters, A, B, C, and D, denoting the length of the square's edges.
 // Using prototype properties, add a method to Square named isSquare that prints true if a Square object has equal edges and false if they are unequal.
+// Use a testing suite to showcase your solution.
+
+//a,b,c,d
+[1,2,3,4]
+
 function Square(A, B, C, D) {
   this.A = A;
   this.B = B;
@@ -43,13 +55,15 @@ process.stdin.on("end", function () {
 
 // Section Two: React.js
 // Part A: everythings-a-to-do-list
-// Purpose: Create a server using Express in Node, that serves up any data of your choice, and create a frontend application in React to interact with the server.
+// Purpose: Create a server using Express in Node, that serves up any data of your choice, 
+// and create a frontend application in React to interact with the server.
 
 // Follow TDD and test all routes using mocha/chai (BONUS: Use Jest & Enzyme to test some React components)
 
 // Getting Started
 
-// Step 1: Data - create an array of static data (fake database), hard coded in your server. Each object in the array must include at least:
+// Step 1: Data - create an array of static data (fake database), hard coded in your server. 
+// Each object in the array must include at least:
 
 // 2 strings
 // 1 boolean
@@ -75,7 +89,8 @@ process.stdin.on("end", function () {
 // 201
 // 500
 
-// Step 4: Frontend using Axios - Build a client-side React interface to function with your backend server, including the following CRUD operations:
+// Step 4: Frontend using Axios - Build a client-side React interface to function with your backend server, 
+// including the following CRUD operations:
 
 // Create (POST) a new object(s) to the dataset you created in Step 1.
 // Read (GET) a list of all the objects in the dataset.
@@ -92,13 +107,15 @@ process.stdin.on("end", function () {
 // Web application (interact in browser)
 // The web app should list the items in the dataset (the initial ones created in Step 1), then update, 
 // in real time (does not require refreshing the browser), to list any modifications made, such as Add, Delete, Edit items.
+
 // A form to Add items
 // An option (ex. button) to Delete items
 // An option (ex. button) to Edit items
-// When a User presses the Edit button, additional options to Submit the Edit and/or Cancel the Edit should be available to the User
+// When a User presses the Edit/delete button, additional options to Submit the Edit and/or Cancel the Edit should be available to the User
+
 // Postman interaction
 // All backend endpoints created are functional:
-// GET
+// GET ALL
 // GET One
 // GET query selection (Step 2. f. above)
 // POST

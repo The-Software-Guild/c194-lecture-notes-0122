@@ -1,54 +1,16 @@
-# C165 Week 2 React Lecture 4
+# C194 Week 2 React Lecture 4
 
 Learnign goals for react day 4 => Today we make room for the second assessment by finish of a few key react concepts including the reasoning for hooks. We also cover the third pillar of OOP, inheritance in JS. Object.is('ready', ready);
 
 ## Agenda
 
-    1) Lifecycle Methods
-    2) Hooks
-    3) Consuming API’s with Axios
-    4) The React Context API
-    5) Prototypal Inheritance
-    6) Equivalence in JS 
+    1) Hooks
+    2) Consuming API’s with Axios
+    3) The React Context API
+    4) Prototypal Inheritance
+    5) Equivalence in JS 
 
-### 1. Lifecycle Methods
-
-In applications with many components, it’s very important to free up resources taken by the components when they are destroyed.
-
-We can declare special methods on the component class to run some code when a component mounts and unmounts.
-
-These methods are called _“lifecycle methods”_.
-
-The ```componentDidMount()``` method runs after the component output has been rendered to the DOM. While ```componentWillUnmount()``` should be used for cleanup of things as the component unmounts.
-
-#### **Using State Correctly**
-
-There are three things you should know about ```setState()```.
-
-1. **Do not modify state directly**, instead use ```setState()```. The only place where you can assign this.state is the constructor.
-
-2. **State updates may be asynchronous.** React may batch multiple setState() calls into a single update for performance. Because ```this.props``` and ```this.state``` may be updated asynchronously, you should not rely on their values for calculating the next state.
-
-3. **State updates are merged**
-When you call ```setState()```, React merges the object you provide into the current state.
-
-#### **The Data Flows Down**
-
-Neither parent nor child components can know if a certain component is stateful or stateless, and they shouldn’t care whether it is defined as a function or a class.
-
-This is why state is often called local or encapsulated. It is not accessible to any component other than the one that owns and sets it.
-
-A component may choose to pass its state down as props to its child components:
-
-```javascript
-<FormattedDate date={this.state.date} />
-```
-
-This is commonly called a _“top-down”_ or _“unidirectional”_ data flow. Any state is always owned by some specific component, and any data or UI derived from that state can only affect components “below” them in the tree.
-
-If you imagine a component tree as a waterfall of props, each component’s state is like an additional water source that joins it at an arbitrary point but also flows down.
-
-### 2. Hooks
+### 1. Hooks
 
 [Hooks are a new addition in React 16.8](https://www.youtube.com/watch?v=dpw9EHDh2bM). They let you use state and other React features without writing a class.
 
@@ -92,7 +54,7 @@ Additionally, React has been out for about five years, and we want to make sure 
 
 To solve these problems, **Hooks let you use more of React’s features without classes**. Conceptually, React components have always been closer to functions. Hooks embrace functions, but without sacrificing the practical spirit of React. Hooks provide access to imperative escape hatches and don’t require you to learn complex functional or reactive programming techniques.
 
-### 3. Consuming API’s with Axios
+### 2. Consuming API’s with Axios
 
 [Axios](https://www.npmjs.com/package/axios) is a JavaScript library that helps us make AJAX calls to APIs.
 
@@ -124,11 +86,11 @@ Previously, there was a lot of code required to make these requests. Many librar
 
 In the creators words, _"In general we resist adding features that can be implemented in userland. We don't want to bloat your apps with useless library code."_
 
-### 4. The React Context API
+### 3. The React Context API
 
 [Context](https://reactjs.org/docs/context.html)
 
-### 5. Prototypal Inheritance
+### 4. Prototypal Inheritance
 
 Prototype-based programming is a style of object-oriented programming in which behaviour reuse (known as inheritance) is performed via a process of reusing existing objects that serve as prototypes.
 
@@ -230,7 +192,7 @@ Prototypal inheritance uses the concept of **prototype chaining**. Let’s explo
 
 This concept is used when searching our code. When we need to find a property in an object, it is first searched for in the object, and if not found, it is searched for on that object’s prototype, and so on. Thus, the entire prototype chain is traversed until the property is found or ```null``` is reached.
 
-### 3. Equality of Values
+### 5. Equality of Values
 
 In JavaScript, there are several kinds of equality.
 
