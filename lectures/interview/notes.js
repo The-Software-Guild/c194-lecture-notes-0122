@@ -7,7 +7,11 @@
 //   -self-awareness and identifing strengths & weakness (lean into our strengths)
 //   -you dont need to outrun the bear you just need to outrun your friend with you (seperate yourself)
 //   -your trading the most valuable finite thing you have which is time to build someone elses bullshit
-//   -remember you are interviewing them and can definitely control the conversation with almost everyone except executives and hiring managers
+//   -remember you are interviewing them and can definitely control the conversation with almost everyone
+//    except executives and hiring managers
+
+// ATS   
+// figma design tool 
 
 // setup
 /* 
@@ -27,9 +31,6 @@
           -professional headshots (500$)
      5. Github
 */
-
-
-
 
 
 // saftey & professionalism
